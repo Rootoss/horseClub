@@ -1,0 +1,202 @@
+.users {
+	padding-top: 18px;
+	padding-bottom: 30px;
+
+	@media (min-width: 1440px) {
+		padding-top: 109px;
+	}
+}
+
+.users__heading {
+	margin-bottom: 34px;
+	text-align: center;
+	color: #363434;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 21px;
+	font-family: "Philosopher", "Arial", sans-serif;
+
+	@media (min-width: 1440px) {
+		margin-bottom: 68px;
+		font-size: 39px;
+		line-height: 40px;
+	}
+}
+
+.users__slider {
+	margin-bottom: 30px;
+
+	@media (min-width: 1440px) {
+		margin-bottom: 63px;
+	}
+}
+
+.users__slide {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1px;
+
+	@media (min-width: 1440px) {
+		gap: 5px;
+	}
+}
+
+.users__img {
+	&--9,
+	&--10 {
+		display: none;
+	}
+
+	@media (min-width: 768px) {
+		height: 155px;
+
+		&--1 {
+			width: 223px;
+		}
+
+		&--2 {
+			width: 136px;
+		}
+
+		&--3 {
+			width: 202px;
+		}
+
+		&--4 {
+			width: 201px;
+		}
+
+		&--5 {
+			width: 185px;
+		}
+
+		&--6 {
+			width: 200px;
+		}
+
+		&--7 {
+			width: 157px;
+		}
+
+		&--8 {
+			width: 220px;
+		}
+	}
+
+	@media (min-width: 1440px) {
+		height: 250px;
+
+		&--1 {
+			width: 317px;
+		}
+
+		&--2 {
+			width: 267px;
+		}
+
+		&--3 {
+			width: 299px;
+		}
+
+		&--4 {
+			width: 350px;
+		}
+
+		&--5 {
+			width: 267px;
+		}
+
+		&--6 {
+			width: 267px;
+		}
+
+		&--7 {
+			width: 307px;
+		}
+
+		&--8 {
+			width: 309px;
+		}
+
+		&--9 {
+			display: block;
+			width: 267px;
+			height: 250px;
+		}
+
+		&--10 {
+			display: block;
+			width: 349px;
+			height: 250px;
+		}
+	}
+
+	@media (min-width: 1920px) {
+		height: 300px;
+
+		&--1 {
+			width: 470px;
+		}
+
+		&--2 {
+			width: 321px;
+		}
+
+		&--3 {
+			width: 359px;
+		}
+
+		&--4 {
+			width: 420px;
+		}
+
+		&--5 {
+			width: 320px;
+		}
+
+		&--6 {
+			width: 321px;
+		}
+
+		&--7 {
+			width: 369px;
+		}
+
+		&--8 {
+			width: 460px;
+		}
+
+		&--9 {
+			display: block;
+			width: 300px;
+		}
+
+		&--10 {
+			display: block;
+			width: 433px;
+		}
+	}
+}
+
+.users__slider-controls {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	width: 206px;
+	height: 35px;
+	margin: 0 auto;
+}
+
+.range {
+	width: 96px;
+	height: 8px;
+	background-color: #eaeaea;
+	border-radius: 10px;
+}
+
+.control {
+	width: 20px;
+	height: 8px;
+	border-radius: 10px;
+	background-color: #ffc700;
+}

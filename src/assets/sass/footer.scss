@@ -1,0 +1,92 @@
+@use "./_variables" as *;
+
+.footer-wrap {
+	@media (min-width: 768px) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	@media (min-width: 1440px) {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+.footer {
+	padding: 30px 20px;
+	background-color: #0b0b0b;
+}
+
+.footer__list {
+	margin-bottom: 30px;
+	text-align: center;
+
+	@media (min-width: 768px) {
+		display: flex;
+		width: 400px;
+	}
+
+	@media (min-width: 1440px) {
+		width: 850px;
+	}
+}
+
+.footer__item {
+	@media (min-width: 768px) {
+		margin-left: 20px;
+	}
+}
+
+.footer__link {
+	text-decoration: none;
+	color: #eaeaea;
+	font-size: 13px;
+	line-height: 45px;
+
+	&--current {
+		border-bottom: 1px solid #eaeaea;
+	}
+}
+
+.footer__button {
+	display: block;
+	width: 167px;
+	height: 46px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	border: 1px solid $default-yellow;
+	box-sizing: border-box;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #f5f5f5;
+	text-align: center;
+	padding: 13px 20px;
+	font: inherit;
+}
+
+.footer__logo-wrap {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	margin-bottom: 35px;
+
+	@media (min-width: 768px) {
+		order: -4;
+	}
+}
+
+.footer__agree,
+.footer__political {
+	margin-bottom: 5px;
+	color: #7d808a;
+	font-size: 9px;
+	line-height: 13px;
+	display: block;
+	text-align: center;
+}
+
+.footer__agree {
+	@media (min-width: 768px) {
+		margin-right: 20px;
+	}
+}
